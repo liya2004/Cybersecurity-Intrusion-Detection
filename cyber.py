@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 import base64
 import os
+from sklearn.ensemble import RandomForestClassifier
 def add_bg_from_local(image_file):
     script_dir = os.path.dirname(__file__)
     img_path = os.path.join(script_dir, image_file)
@@ -114,3 +115,4 @@ elif page=="📊 Output":
 
     else:
         st.warning("Please run a prediction first from the Input Data page.")
+
