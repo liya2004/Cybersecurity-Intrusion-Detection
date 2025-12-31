@@ -96,6 +96,14 @@ Countplot displaying the relationship between encryption types and attack occurr
 
 ---
 
+## Try the Live Demo
+
+You can interact with the live version of this Cybersecurity Intrusion Detection System here:
+
+[Launch the Streamlit App](https://cybersecurity-intrusion-detection-op9ug2lhowqh99ljzah6qd.streamlit.app/)
+
+---
+
 ## Result and Conclusion
 The intrusion detection system successfully classifies network traffic as normal or malicious.  
 The project demonstrates how machine learning can be effectively used to improve cybersecurity monitoring and threat detection.
