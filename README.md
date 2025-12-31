@@ -64,6 +64,35 @@ The Streamlit web application allows users to:
 - View results in a simple and user-friendly interface
 
 
+## Visualizations
+
+### Heat Map  
+A heatmap showing correlation between various features in the dataset.  
+![Heat Map](heatmap.png)
+
+---
+
+### Boxplot of Failed Logins  
+Boxplot illustrating the distribution of failed login attempts across different categories.  
+![Boxplot of Failed Logins](boxplot_attack_failed_logins.png)
+
+---
+
+### Protocol vs Attack  
+Countplot comparing network protocols against detected attacks.  
+![Protocol vs Attack](countplot_protocol_attack.png)
+
+---
+
+### IP Score KDE  
+Kernel Density Estimate (KDE) plot showing distribution of IP scores for attack vs normal traffic.  
+![IP Score KDE](kdeplot_ip_score_attack.png)
+
+---
+
+### Encryption vs Attack  
+Countplot displaying the relationship between encryption types and attack occurrences.  
+![Encryption vs Attack](countplot_encryption_attack.png)
 
 ---
 
