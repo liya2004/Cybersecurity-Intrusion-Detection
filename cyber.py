@@ -1,12 +1,4 @@
 import streamlit as st
-
-try:
-    import sklearn
-    st.write("scikit-learn is installed!")
-except ModuleNotFoundError:
-    st.write("scikit-learn NOT installed!")
-
-import streamlit as st
 import pandas as pd
 import pickle
 import base64
@@ -124,6 +116,7 @@ elif page=="📊 Output":
 
     else:
         st.warning("Please run a prediction first from the Input Data page.")
+
 
 
 
